@@ -61,10 +61,10 @@ The pipeline will:
 
 ```bash
 # After training completes
-python test_model.py --model-arn <your-model-arn>
+python test_model.py --custom-model-arn <your-model-arn>
 
 # Interactive testing
-python test_model.py --model-arn <your-model-arn> --interactive
+python test_model.py --custom-model-arn <your-model-arn> --interactive
 ```
 
 ## Important Limitations
